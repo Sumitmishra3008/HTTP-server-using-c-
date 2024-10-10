@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar Example</title>
+    <link rel="stylesheet" href="b.css">
+</head>
+<script>
+    function aa()
+    {
+        const a=document.getElementById("a").value;
+        
+        const b=document.getElementById("b").value;
+        
+        document.getElementById("result").innerHTML=`
+       <div>
+        <div>${a}</div>
+        <div>${b}</div>
+        <button>add</button>
+        </div>
+        `
+       
+        
+       
+    }
+    
+</script>
+<body>
+
+   <input type="text" id="a" placeholder="Enter a number"><br></br>
+    <input type="text" id="b" placeholder="Enter a number"><br></br>
+    <button onclick="aa()">Add</button>
+    <div id="result"></div>
+   
+
+</body>
+</html>
